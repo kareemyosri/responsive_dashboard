@@ -7,11 +7,13 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      maxLines: 1,
     decoration: InputDecoration(
       hintText: hint,
       hintStyle: AppStyles.styleRegular16(context).copyWith(color: const Color(0xFFAAAAAA)),
       fillColor: const Color(0xFFFAFAFA),
       filled: true,
+      contentPadding: EdgeInsets.all(12),
       border: OutlineInputBorder(
         borderSide: const BorderSide(
           color: Color(0xFFAAAAAA)

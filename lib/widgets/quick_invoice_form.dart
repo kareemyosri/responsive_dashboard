@@ -9,14 +9,14 @@ class QuickInvoiceForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Row(
+         Row(
           children: [
             Expanded(child: TitleTextField(title: 'Customer name', hint: 'Type customer name')),
             SizedBox(width: 16,),
-            Expanded(child: TitleTextField(title: 'Customer Email', hint: 'Type customer email')),
+           Expanded(child: TitleTextField(title: 'Customer Email', hint: 'Type customer email')),
           ],
         ),
-        SizedBox(height: 24,),
+         SizedBox(height: 24,),
         Row(
           children: [
             Expanded(child: TitleTextField(title: 'Item name', hint: 'Type customer name')),
