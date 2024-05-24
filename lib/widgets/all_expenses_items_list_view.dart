@@ -33,6 +33,57 @@ class _AllExpensesItemSListViewState extends State<AllExpensesItemSListView> {
 
   @override
   Widget build(BuildContext context) {
+
+    return Row(
+      children: [
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                selectedIndex=0;
+              });
+            },
+            child: AllExpensesItem(
+              isSelected: selectedIndex == 0,
+               allExpensesItemModel: expensesItems[0],
+            ),
+          ),
+        ),
+        const SizedBox(
+          width: 8,
+        ),
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                selectedIndex=1;
+              });
+            },
+            child: AllExpensesItem(
+              isSelected: selectedIndex == 1,
+               allExpensesItemModel: expensesItems[1],
+            ),
+          ),
+        ),
+        const SizedBox(
+          width: 8,
+        ),
+        Expanded(
+          child: GestureDetector(
+            onTap: () {
+              setState(() {
+                selectedIndex=2;
+              });
+            },
+            child: AllExpensesItem(
+              isSelected: selectedIndex == 2,
+               allExpensesItemModel: expensesItems[2],
+            ),
+          ),
+        )
+      ],
+    );
+
     return  Row(
       children: expensesItems.asMap().entries.map((e) {
         return  Expanded(
@@ -42,10 +93,7 @@ class _AllExpensesItemSListViewState extends State<AllExpensesItemSListView> {
                   selectedIndex =e.key;
                 });
               } ,
-              child: Padding(
-                padding: e.key==1? const EdgeInsets.symmetric(horizontal: 12):EdgeInsets.zero,
-                child: AllExpensesItem(allExpensesItemModel: e.value, isSelected: e.key==selectedIndex,),
-              ),
+              child: AllExpensesItem(allExpensesItemModel: e.value, isSelected: e.key==selectedIndex,),
             ));
       }).toList(),
     );

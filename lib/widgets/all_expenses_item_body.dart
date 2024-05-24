@@ -12,21 +12,30 @@ final bool isSelected;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(allExpensesItemModel.title,
-          style: AppStyles.styleSemiBold16(context).copyWith(
-              color: isSelected? Colors.white : const Color(0xff064061)
+        FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(allExpensesItemModel.title,
+            style: AppStyles.styleSemiBold16(context).copyWith(
+                color: isSelected? Colors.white : const Color(0xff064061)
+            ),
           ),
         ),
         const SizedBox(height: 8,),
-        Text(allExpensesItemModel.date,
-          style: AppStyles.styleRegular14(context).copyWith(
-            color: isSelected? const Color(0xffFAFAFA) : const Color(0xffAAAAAA)
+        FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(allExpensesItemModel.date,
+            style: AppStyles.styleRegular14(context).copyWith(
+              color: isSelected? const Color(0xffFAFAFA) : const Color(0xffAAAAAA)
+            ),
           ),
         ),
         const SizedBox(height: 16,),
-        Text(allExpensesItemModel.price,
-          style: AppStyles.styleSemiBold24(context).copyWith(
-              color: isSelected? Colors.white : const Color(0xff4EB7F2)
+        FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(allExpensesItemModel.price,
+            style: AppStyles.styleSemiBold24(context).copyWith(
+                color: isSelected? Colors.white : const Color(0xff4EB7F2)
+            ),
           ),
         ),
       ],
