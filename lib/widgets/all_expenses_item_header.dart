@@ -11,7 +11,7 @@ class AllExpensesItemHeader extends StatelessWidget {
       children: [
         Flexible(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(minWidth: 60,minHeight: 60),
+            constraints: const BoxConstraints(maxWidth: 60,maxHeight: 60),
             child: AspectRatio(
               aspectRatio: 1,
               child: Container(
