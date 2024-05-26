@@ -35,4 +35,5 @@ This project is a Responsive Dashboard for a mobile application developed using 
 - └── README.md
 
 ## Video Demo
-You can watch the demo video [Google Drive] (https://drive.google.com/file/d/1RxgirrfD-12iD5UvgrSQzntOKF-8HFOZ/view?usp=sharing).
+You can watch the demo video [Google Drive](https://drive.google.com/file/d/1RxgirrfD-12iD5UvgrSQzntOKF-8HFOZ/view?usp=drive_link)
+
