@@ -15,24 +15,24 @@ This project is a Responsive Dashboard for a mobile application developed using 
 
 ## Folder Structure
 
-responsive_dashboard_flutter/
-├── android/
-├── assets/
-│   └── images/
-│   └── fonts/
-├── build/
-├── ios/
-├── lib/
-│   ├── main.dart
-│   ├── models/
-│   ├── views/
-│   │   ├── dashboard_view.dart
-│   ├── utils/
-│   ├── widgets/
-├── test/
-├── .gitignore
-├── pubspec.yaml
-└── README.md
+- responsive_dashboard_flutter/
+- ├── android/
+- ├── assets/
+- │   └── images/
+- │   └── fonts/
+- ├── build/
+- ├── ios/
+- ├── lib/
+- │   ├── main.dart
+- │   ├── models/
+- │   ├── views/
+- │   │   ├── dashboard_view.dart
+- │   ├── utils/
+- │   ├── widgets/
+- ├── test/
+- ├── .gitignore
+- ├── pubspec.yaml
+- └── README.md
 
 ## Video Demo
-You can watch the demo video [Google Drive](#) (https://drive.google.com/file/d/1RxgirrfD-12iD5UvgrSQzntOKF-8HFOZ/view?usp=sharing).
+You can watch the demo video [Google Drive] (https://drive.google.com/file/d/1RxgirrfD-12iD5UvgrSQzntOKF-8HFOZ/view?usp=sharing).
