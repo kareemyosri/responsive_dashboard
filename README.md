@@ -1,16 +1,38 @@
-# responsive_dashboard
+# Responsive Dashboard Flutter Application
 
-A new Flutter project.
+This project is a Responsive Dashboard for a mobile application developed using Flutter. It supports both Android and iOS platforms. The Responsive Dashboard is designed to provide an intuitive and user-friendly control interface for your app.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Packages](#packages)
+- [Folder Structure](#folder-structure)
+- [Video Demo](#Video-Demo)
 
-A few resources to get you started if this is your first Flutter project:
+## Packages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- expandable_page_view
+- fl_chart:(For Flow Chart) 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Folder Structure
+
+responsive_dashboard_flutter/
+├── android/
+├── assets/
+│   └── images/
+│   └── fonts/
+├── build/
+├── ios/
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   ├── views/
+│   │   ├── dashboard_view.dart
+│   ├── utils/
+│   ├── widgets/
+├── test/
+├── .gitignore
+├── pubspec.yaml
+└── README.md
+
+## Video Demo
+You can watch the demo video [Google Drive](#) (https://drive.google.com/file/d/1RxgirrfD-12iD5UvgrSQzntOKF-8HFOZ/view?usp=sharing).
